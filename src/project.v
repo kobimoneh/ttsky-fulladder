@@ -22,7 +22,7 @@ module tt_um_example (
   assign uio_oe  = 0;
   wire w;
   assign w = 0;
-  fulladder fulladder1 (ui[3:0], ui[7:4],w, uo_out[4], uo_out[3:0]);
+  fulladder fulladder1 (ui_in[3:0], ui_in[7:4],w, uo_out[4], uo_out[3:0]);
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
 //hello world
