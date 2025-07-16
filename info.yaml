@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "fulladder"      # Project title
+  title:        "fulladder1"      # Project title
   author:       "kobi"      # Your name
   discord:      "kobi"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "fulladder"      # One line description of what your project does
